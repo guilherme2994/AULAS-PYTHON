@@ -17,4 +17,3 @@ print("subtracao dos numeros: ", subtracao)
 print("multiplicacao dos numeros: ", multiplicacao)
 print("divisao dos numeros: ", divisao)
 print("resto dos numeros: ", resto)
-
