@@ -14,5 +14,5 @@ media = (nota1 + nota2) / 2
 
 aprovado = (media >= 6.0) and (frequencia >= 75)
 
-print(f"Média: {media:.1f}")
+print(f"Média do aluno foi: {media:.1f}")
 print(aprovado)
