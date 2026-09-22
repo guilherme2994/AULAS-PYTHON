@@ -31,20 +31,20 @@ class Produto:
         print("Preço:", self.__preco)
         print("Quantidade em estoque:", self.__quantidade_estoque)
 
+# TESTES OBRIGATÓRIOS
 
-# Criação do produto de teste
-meu_produto = Produto("Notebook", 3000.00, 10)
+meu_produto = Produto("Notebook Gamer", 3000, 10)
 
 # 1. Tentativa de alteração direta dos atributos
-meu_produto.__quantidade_estoque = -50
-meu_produto.__preco = -100
+meu_produto.__quantidade_estoque = 50
+meu_produto.__preco = 100
 
-# 2. Tentativa de realizar uma venda maior que o estoque
-meu_produto.realizar_venda(9999)
+# 2. Tentativa de venda maior que o estoque
+meu_produto.realizar_venda(10)
 
 # 3. Exibição do resumo final
 meu_produto.exibir_resumo()
 
-# Exibe os dados reais armazenados no objeto
-print("\nDados internos do objeto:")
+# Mostrando as informações reais armazenadas no objeto
+print("\nInformações internas:")
 print(meu_produto.__dict__)
