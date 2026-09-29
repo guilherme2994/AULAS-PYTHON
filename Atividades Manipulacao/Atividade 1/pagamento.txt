@@ -1,0 +1,9 @@
+===== RECIBO DE COMPRA =====
+Cliente: Guilherme
+
+Produtos:
+- MeM: R$ 12.50
+- ARROZ: R$ 8.00
+- ByD: R$ 149.00
+
+TOTAL: R$ 169.50
