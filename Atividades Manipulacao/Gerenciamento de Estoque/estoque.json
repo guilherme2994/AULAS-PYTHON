@@ -1,0 +1,25 @@
+{
+    "nome": "TechStore",
+    "produtos": [
+        {
+            "nome": "Teclado Mecânico",
+            "preco": 250.0,
+            "quantidade": 15
+        },
+        {
+            "nome": "Mouse Gamer",
+            "preco": 108.0,
+            "quantidade": 30
+        },
+        {
+            "nome": "Monitor 24''",
+            "preco": 850.0,
+            "quantidade": 8
+        },
+        {
+            "nome": "Fone Bluetooth",
+            "preco": 200.0,
+            "quantidade": 20
+        }
+    ]
+}
