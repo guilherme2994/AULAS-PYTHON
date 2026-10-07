@@ -128,6 +128,5 @@ def analisar_estoque(caminho_arquivo):
     print(f"\n💰 Valor Total do Estoque: R$ {valor_total_estoque:,.2f}")
     print("=" * 50)
 
-
 # Executa o método de análise
 analisar_estoque(caminho_json)
