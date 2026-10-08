@@ -37,17 +37,17 @@ try:
 except FileNotFoundError:
     print(f"Erro: O arquivo '{caminho_txt}' não foi encontrado. Baixe o arquivo e coloque no mesmo diretório.")
 
-# ETAPA 2 — Gerando o Arquivo Livros ('w' - write)
+# ETAPA 2 — Gerando o Arquivo Livros 5 ('w' - write)
 
 caminho_json = "catalogo.json"
 
 with open(caminho_json, "w", encoding="utf-8") as arquivo_json:
-    # Escreve a lista de dicionários no formato Livros com indentação de 4 espaços
+    # Escreve a lista de dicionários no formato Livros 5 com indentação de 4 espaços
     json.dump(catalogo_livros, arquivo_json, indent=4, ensure_ascii=False)
 
 print("Etapa 2 Concluída: Arquivo 'catalogo.json' criado com sucesso.")
 
-# ETAPA 3 — Instanciando Novos Livros e Atualizando o Livros
+# ETAPA 3 — Instanciando Novos Livros 5 e Atualizando o Livros 5
 
 # Criação de 5 novos livros
 novos_livros = [
@@ -100,14 +100,14 @@ print(f"Etapa 3 Concluída: 'catalogo.json' atualizado! Total de livros no catá
 # ETAPA 4 — Lendo atributos dentro do arquivo final (json)
 
 def analisar_estoque(caminho_arquivo):
-    # Leitura do arquivo Livros permanente para garantir persistência dos dados
+    # Leitura do arquivo Livros 5 permanente para garantir persistência dos dados
     with open(caminho_arquivo, "r", encoding="utf-8") as arquivo:
         dados_carregados = json.load(arquivo)
 
     livros_baixo_estoque = []
     valor_total_estoque = 0.0
 
-    # Iteração sobre cada livro carregado do Livros
+    # Iteração sobre cada livro carregado do Livros 5
     for livro in dados_carregados:
         # Verifica livros com menos de 15 unidades em estoque
         if livro["em_estoque"] < 15:
@@ -121,7 +121,7 @@ def analisar_estoque(caminho_arquivo):
     print("      RELATÓRIO DE ESTOQUE DA LIVRARIA")
     print("=" * 50)
 
-    print("\n📚 Livros com menos de 15 unidades em estoque:")
+    print("\n📚 Livros 5 com menos de 15 unidades em estoque:")
     for nome in livros_baixo_estoque:
         print(f"  - {nome}")
 
