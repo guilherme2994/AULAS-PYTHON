@@ -1,0 +1,23 @@
+[
+    {
+        "cep": "72450-120",
+        "logradouro": "Quadra 12",
+        "bairro": "Setor Leste (Gama)",
+        "cidade": "Brasília",
+        "estado": "DF"
+    },
+    {
+        "cep": "64300-000",
+        "logradouro": "",
+        "bairro": "",
+        "cidade": "Valença do Piauí",
+        "estado": "PI"
+    },
+    {
+        "cep": "72450-160",
+        "logradouro": "Quadra 16",
+        "bairro": "Setor Leste (Gama)",
+        "cidade": "Brasília",
+        "estado": "DF"
+    }
+]
