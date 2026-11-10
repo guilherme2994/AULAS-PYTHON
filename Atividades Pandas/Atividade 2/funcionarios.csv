@@ -1,0 +1,31 @@
+﻿id;nome;salario;cargo
+1;Ana Souza;4200.0;Analista de Sistemas
+2;Bruno Lima;5100.0;Desenvolvedor Java
+3;Carla Mendes;2800.0;Assistente Administrativo
+4;Diego Alves;4800.0;Desenvolvedor Python
+5;Fernanda Rocha;3500.0;Analista de RH
+6;Gabriel Martins;6200.0;Engenheiro de Software
+7;Helena Costa;3100.0;Assistente Financeiro
+8;Igor Ribeiro;4500.0;Analista de Dados
+9;Juliana Ferreira;3900.0;Designer Gráfico
+10;Lucas Carvalho;5300.0;Administrador de Redes
+11;Mariana Santos;2950.0;Recepcionista
+12;Nicolas Oliveira;5700.0;Analista de Segurança
+13;Patrícia Gomes;4100.0;Analista de Marketing
+14;Rafael Barros;6800.0;Gerente de Projetos
+15;Sofia Nascimento;3200.0;Técnica de Suporte
+16;Thiago Cardoso;4600.0;Desenvolvedor Front-end
+17;Vanessa Lima;3700.0;Analista Contábil
+18;William Pereira;5900.0;Administrador de Banco de Dados
+19;Yasmin Azevedo;3400.0;Assistente de Compras
+20;André Moreira;7200.0;Coordenador de TI
+21;Beatriz Monteiro;4300.0;Analista de Qualidade
+22;Caio Fernandes;3850.0;Desenvolvedor JavaScript
+23;Daniela Freitas;3150.0;Auxiliar de Departamento Pessoal
+24;Eduardo Teixeira;5500.0;Analista de Infraestrutura
+25;Flávia Ribeiro;4050.0;Product Owner
+26;Gustavo Mendes;4950.0;Desenvolvedor Mobile
+27;Isabela Duarte;3600.0;Assistente de Logística
+28;João Pedro Silva;6400.0;Cientista de Dados
+29;Larissa Campos;3300.0;Analista de Atendimento
+30;Marcelo Batista;6100.0;Líder Técnico
